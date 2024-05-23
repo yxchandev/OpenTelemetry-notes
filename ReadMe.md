@@ -7,6 +7,12 @@ npm install @opentelemetry/sdk-node \
   @opentelemetry/sdk-metrics \
   @opentelemetry/sdk-trace-node
 
+  @opentelemetry/core
+  @opentelemetry/node
+  @opentelemetry/plugin-https
+  @opentelemetry/exporter-zipkin
+  @opentelemetry/tracing
+
 
 ## SETUP 
 
@@ -38,11 +44,25 @@ sdk.start();
 
 ```
 $ npx ts-node --require ./instrumentation.ts app.ts
-Listening for requests on http://localhost:8080
+
+
+$ node --require ./instrumentation.js app.js
 ```
+Listening for requests on http://localhost:8080
 
 ## SETUP FOR BROWSER
 
 ```
 <script type="module" src="document-load.ts"></script>
 ```
+
+
+## USEFUL LINK
+https://www.youtube.com/watch?v=r8UvWSX3KA8
+
+## RECEIVER
+
+
+## PROCESSOR
+
+## EXPORTER
