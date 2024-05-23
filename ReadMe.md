@@ -59,6 +59,12 @@ Listening for requests on http://localhost:8080
 
 ## USEFUL LINK
 https://www.youtube.com/watch?v=r8UvWSX3KA8
+https://www.youtube.com/watch?v=CAQ_a2-9UOI
+https://nextjs.org/docs/app/building-your-application/optimizing/open-telemetry
+https://signoz.io/blog/opentelemetry-nextjs/
+https://www.youtube.com/watch?v=dfpGU9al_i4&list=PL6VBQyIvTlRjAMeeZN5yfD07X8DdYonnI
+https://www.atatus.com/blog/next-js-opentelemetry/
+https://checklyhq.com/docs/open-telemetry/instrumenting-code/nextjs/
 
 ## RECEIVER
 
